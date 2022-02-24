@@ -104,6 +104,70 @@ body::-webkit-scrollbar-thumb {
     width: 30px;
 }
 
+/**** Main Dashboard Contents ****/
+.card-box {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 13px;
+    border-radius: 10px;
+}
+.card-box h6 {
+    color: gray;
+    text-align: center;
+    margin-top: 13px;
+}
+.card-box h5 {
+    font-weight: 700;
+    text-align: center;
+}
+
+.img-container {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-con1 {
+    background-color: #FDEDD0;
+}
+.img-con2 {
+    background-color: #FBDBDE;
+}
+.img-con3 {
+    background-color: #DEEDFE;
+}
+
+.img-con4 {
+    background-color: #FDEDD3;
+}
+
+.search-icon {
+    position: absolute;
+    width: 15px;
+    top: 8px;
+    left: 5px;
+    z-index: 100;
+}
+
+.top-icons {
+    border-radius: 50%;
+    width: 33px;
+    height: 33px;
+    background-color: #EFF0F6;
+    color: gray;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-icons svg {
+    width: 20px;
+}
+
 @media all and (max-width: 991px) {
     .page-container {
         grid-template-columns: 1fr;
@@ -111,7 +175,7 @@ body::-webkit-scrollbar-thumb {
     .side-nav {
         width: 300px;
         position: absolute;
-        background-color: rgba(245, 245, 245, 0.246);
+        background-color: rgb(255, 255, 255);
         box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
         display: none;
         transition: all 300ms ease-in-out;
